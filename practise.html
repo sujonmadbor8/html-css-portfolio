@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sujon Madbor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="sujon.ico" />
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        <img style="cursor: pointer" src="logo.png" alt="" />
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="header-section" style="margin-top: 50px">
+        <div class="profile-image"><img src="sujon.jpg" alt="" /></div>
+        <div class="bio">
+          <h1>
+            <span class="highlight">Hi</span>, I am
+            <span class="highlight">Sujon!</span>
+          </h1>
+          <h3>Full Stack Web Developer</h3>
+          <p>
+            Let me introduce myself in 7 words. Responsible, creative,
+            open-minded, friendly and ambitious web developer.
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="feature-section">
+        <div class="feature-image"><img src="youtube_cover.jpg" alt="" /></div>
+        <div class="feature-details">
+          <h2 style="color: white">About Me:</h2>
+          <br />
+          <p>
+            My name is Sujon and I’ve been developing websites with WordPress
+            for about 1 year now. I am self-taught, but I honestly believe that
+            with the amount of tutorials on YouTube, and in the WordPress
+            community, one can learn everything–including HTML, CSS and PHP,
+            without going to college or University. I’ve tried to make my living
+            as a freelance front end web developer.
+          </p>
+        </div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-form">
+          <form action="action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="bangladesh">Bangladesh</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 200px; resize: none"
+            ></textarea>
+
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+        <div class="contact-info">
+          <h3>Md. Sujon</h3>
+          <h3>Full Stack Web Developer</h3>
+          <h3>+88 01312128230</h3>
+          <h3>Email: sujonmadbor8@gmail.com</h3>
+          <h3>GitHub: github.com/sujonmadbor8</h3>
+        </div>
+      </div>
+    </main>
+    <footer>
+      Developed by Sujon Madbor| 2022-2023 | © Copy Rights: All rights reserved.
+    </footer>
+  </body>
+</html>
